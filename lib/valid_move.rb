@@ -2,7 +2,7 @@
 def valid_move?(board, index)
   if board[index] < 0 || board[index] > 8 || board[index] == nil
     return false
-  elsif board[index] !== " " || board[index] !== ""
+  elsif board[index] != " " || board[index] != ""
     return false
   else
     return true
